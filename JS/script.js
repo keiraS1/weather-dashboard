@@ -1,0 +1,3 @@
+var forecastTitle = $('forecast-title');
+
+

@@ -1,0 +1,67 @@
+
+
+
+
+h1 {
+text-align: center;
+padding: 30px;
+font-size: 30px;
+background-image: linear-gradient( to right, blue, rgb(120, 183, 225) );
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 10px;
+margin: 5px;
+border:1px solid black;
+font-weight: bold;
+}
+
+
+h2 {
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:25px;
+}
+
+h1::before {
+    content: "🌤 ";
+}
+
+h1::after {
+    content: " 🌦";
+}
+
+.container {
+    display: flex;
+}
+
+#search-section {
+    display: flex;
+    display: block;
+    margin: 10px;
+}
+
+#search-box {
+    width: 98%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#searchbtn {
+    width: 100%;
+   
+    font-size: 20px;
+    color: white;
+    background-color:rgb(120, 183, 225);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    width:94%;
+}
