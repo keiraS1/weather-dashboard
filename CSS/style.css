@@ -44,7 +44,7 @@ h1::after {
     width:78%;
     margin: 5px;
     border-radius: 10px;
-    background-color: rgb(129, 186, 248);
+    background-image: linear-gradient(to right, rgb(129, 186, 248), rgb(202, 232, 240));
 
 }
 
