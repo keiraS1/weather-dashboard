@@ -6,12 +6,12 @@ h1 {
 text-align: center;
 padding: 30px;
 font-size: 30px;
-background-image: linear-gradient( to right, blue, rgb(120, 183, 225) );
+background-image: linear-gradient( to right, blue, rgb(120, 183, 225),rgb(151, 151, 227), white);
 color: white;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 border-radius: 10px;
 margin: 5px;
-border:1px solid black;
+/* border:1px solid black; */
 font-weight: bold;
 }
 
@@ -33,6 +33,19 @@ h1::after {
 
 .container {
     display: flex;
+}
+
+.sidesection {
+    height: 100vh;
+}
+
+.weathersection {
+    height: 100vh;
+    width:78%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(129, 186, 248);
+
 }
 
 #search-section {
@@ -65,3 +78,18 @@ h1::after {
 hr {
     width:94%;
 }
+
+.hide {
+    visibility: hidden; 
+    /* or change to display: none , whichever works better */
+}
+
+#timeofdaygreeting {
+    font-size: 300%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 40px;
+    color: white
+}
+
